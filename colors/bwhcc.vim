@@ -250,7 +250,7 @@ call <sid>hi("DiffLine",     s:gui05, s:gui00,  s:cterm05, s:cterm00, "", "")
 call <sid>hi("DiffRemoved",  s:gui05, s:gui00,  s:cterm05, s:cterm00, "", "")
 
 " Git highlighting
-call <sid>hi("gitcommitOverflow",       s:gui05, "", s:cterm05, "", "", "")
+call <sid>hi("gitcommitOverflow",       s:gui05, "", s:cterm05, "", "undercurl", s:gui0A)
 call <sid>hi("gitcommitSummary",        s:gui05, "", s:cterm05, "", "", "")
 call <sid>hi("gitcommitComment",        s:gui05, "", s:cterm05, "", "", "")
 call <sid>hi("gitcommitUntracked",      s:gui05, "", s:cterm05, "", "", "")
